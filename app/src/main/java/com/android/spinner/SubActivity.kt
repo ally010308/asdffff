@@ -225,7 +225,8 @@ class SubActivity : AppCompatActivity(), SensorEventListener {
             left_station.text = resources.getString(R.string.label_one)
 
         } else { //남은 정거장 수 -1
-            left_station.text = resources.getString(R.string.label_left, leftStaion(nowNum, destinationNum))
+            val n = leftStaion(nowNum, destinationNum).toString()
+            left_station.text = resources.getString(R.string.label_left, n)
         }
     }
 

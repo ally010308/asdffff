@@ -58,7 +58,7 @@
 
     <string name="label_end">목적지는 %s 역입니다.</string>
     <string name="label_start">출발지는 %s 역입니다.</string>
-    <string name="label_left">남은 정거장 수는 %i 개</string>
+    <string name="label_left">남은 정거장 수는 %s 개</string>
     <string name="label_one">다음 역에서 하차합니다</string>
     <string name="label_totalDis">이동거리: %1$.2f m</string>
     <string name="label_betweenDis">역간 이동거리: %1$.2f m</string>
